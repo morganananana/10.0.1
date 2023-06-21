@@ -1,0 +1,45 @@
+input{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.lupinha{
+    position: absolute;
+    margin: 3px;
+    left: 0;
+    align-items: center;
+}
+h1{ 
+    font-size: 115px;
+    text-align: center;
+}
+.itens{
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 267px;
+}
+button{
+    margin-left: 23px;
+    margin-top: 9px;
+}
+.lala{
+    display: flex;
+    justify-content: center;
+}
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.itens:hover, button:hover{
+    cursor: pointer;
+}
+
